@@ -14,7 +14,7 @@ header{
 .imgp{
     font-size: small;
     text-align: center;
-    background-image: url(/img/pexels-protsilver-chen-292687888-32388301.jpg);
+    background-image: url("/img/pexels-protsilver-chen-292687888-32388301.jpg");
     background-position: center calc(70%);
     height: 60vh;
     
