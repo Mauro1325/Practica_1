@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
 }
 
 header{
@@ -10,39 +11,49 @@ header{
     background-color: rgba(0,0,100,0.8);
 }
 
-
+/* Imagen de fondo */
 .imgp{
     font-size: small;
-    text-align: center;
-    background-image: url("css/img/pexels-protsilver-chen-292687888-32388301.jpg");
+    background-image: url(/img/pexels-protsilver-chen-292687888-32388301.jpg);
     background-position: center calc(70%);
+    background-size: cover;
+    background-repeat:no-repeat;
     height: 60vh;
-    
+    text-align: center;
 }
 
+/* Texto de la img */
 .imgp > h1{
-
+    
+    display: inline;
+    
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
 
 }
 
 .boton{
+    margin:0px;
     padding: 20px;
     text-align: center;
 }
 
 .boton > div{
+
     font-size: small;
-    background-color: blue;
+    border-radius: 15px;
+    background-color: rgb(152, 152, 154);
     margin: 10px;
     padding: 15px;
     text-align: left;
 }
 
 .boton > div > h1{
-    
+    color: blue;
 }
 
 footer{
+    bottom: 0;
     font-size: smaller;
     text-align: center;
     padding: 5px;
