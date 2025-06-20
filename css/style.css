@@ -5,16 +5,17 @@
     color: aliceblue;
 }
 
+
 header{
-    text-align: center;
-    padding: 5px;
+    text-align: left;
+    padding: 10px 35px;
     background-color: rgba(0,0,100,0.8);
 }
 
 /* Imagen de fondo */
 .imgp{
     font-size: small;
-    background-image: url("img/pexels-protsilver-chen-292687888-32388301.jpg");
+    background-image: url("/img/pexels-protsilver-chen-292687888-32388301.jpg");
     background-position: center calc(70%);
     background-size: cover;
     background-repeat:no-repeat;
@@ -26,34 +27,49 @@ header{
 .imgp > h1{
     
     display: inline;
-    
-    background-color: rgba(0,0,0,0.3);
-    text-align: center;
+    background-color: rgba(0,0,0,0.3); 
+    border-radius: 5px;
+    padding: 3px;
 
 }
 
+
+
+/* botones: margenes y centrarlos */
 .boton{
-    margin:0px;
+    margin:0px 500px;
     padding: 20px;
-    text-align: center;
+
 }
 
 .boton > div{
-
+ 
     font-size: small;
+    text-align: left;
+    line-height: 25px;
+
     border-radius: 15px;
-    background-color: rgb(152, 152, 154);
+    background-color: rgb(235, 235, 235); /* color */
+    border-bottom: 2px solid rgba(0,0,0,0.1); /* sombra de los botones */
+
     margin: 10px;
     padding: 15px;
-    text-align: left;
+
 }
 
+/* Color del h1 */
 .boton > div > h1{
     color: blue;
 }
 
+/* color del text de abajo */
+.boton > div > p{
+color: black;
+}
+
+/* pie de page (nose como dejarlo fijo a la parte de abajo de la page) */
 footer{
-    bottom: 0;
+
     font-size: smaller;
     text-align: center;
     padding: 5px;
