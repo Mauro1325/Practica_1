@@ -14,7 +14,7 @@ header{
 /* Imagen de fondo */
 .imgp{
     font-size: small;
-    background-image: url(/img/pexels-protsilver-chen-292687888-32388301.jpg);
+    background-image: url("/img/pexels-protsilver-chen-292687888-32388301.jpg");
     background-position: center calc(70%);
     background-size: cover;
     background-repeat:no-repeat;
